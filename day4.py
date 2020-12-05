@@ -1,5 +1,5 @@
 def part1():
-    f = open("input4.txt", "r")
+    f = open("input4_joe.txt", "r")
     input = []
     batch = []
     count = 0
@@ -23,7 +23,7 @@ def bet(v, min, max):
 
 
 def part2():
-    f = open("input4.txt", "r")
+    f = open("input4_joe.txt", "r")
     input = []
     batch = []
     count = 0
@@ -52,7 +52,7 @@ def part2():
                         validKeys += 1
                     if "in" in v and bet(v.replace('in',''), 59,76):
                         validKeys += 1
-                if  k == "hcl" and ord(v[0]) == 35:
+                if  k == "hcl" and v[0] == '#':
                     validChars = 0
                     for c in v[1:]:
                         if 48 <= ord(c) <= 57 or 97 <= ord(c) <= 102:
