@@ -3,8 +3,6 @@ def part1():
     seats = set()
     f = open("input5.txt", "r")
     input = []
-    batch = []
-    count = 0
     max = -1
     for x in f:
         x = x.strip()
@@ -35,7 +33,7 @@ def part1():
         seats.add(seatId)
         if seatId > max:
             max = seatId
-    
+    print(sorted(seats))
     for i in range(0, max):
         if i not in seats:
             print(i) 
