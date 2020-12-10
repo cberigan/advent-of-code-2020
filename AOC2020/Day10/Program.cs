@@ -38,11 +38,11 @@ namespace Day10
             }
 
             Console.WriteLine(ones * threes);
-            Console.WriteLine(FindRemovables2(start) + 1);
+            Console.WriteLine(FindPermutations(start) + 1);
             Console.ReadLine();
         }
 
-        static long FindRemovables2(Node start)
+        static long FindPermutations(Node start)
         {
             long count = 0;
             Node remove = null;
@@ -68,7 +68,7 @@ namespace Day10
                 count += memo[curr];
             else
             {
-                var countFromNode = FindRemovables2(curr);
+                var countFromNode = FindPermutations(curr);
                 memo[curr] = countFromNode;
                 count += countFromNode;
             }
@@ -78,7 +78,7 @@ namespace Day10
                 count += memo[removed];
             else
             {
-                var countFromNode = FindRemovables2(removed);
+                var countFromNode = FindPermutations(removed);
                 memo[removed] = countFromNode;
                 count += countFromNode;
             }
