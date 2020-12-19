@@ -77,7 +77,7 @@ print(eval_expression2(exp))
 with open('input18.txt') as f:
     lines = f.readlines()
 
-
+#part1 
 total = 0
 
 for exp in lines:
@@ -85,6 +85,7 @@ for exp in lines:
     total += eval_expression1(exp)
 print(total)   
 
+#part2
 total = 0
 for exp in lines:
     exp = exp.replace(' ', '')
