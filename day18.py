@@ -1,7 +1,3 @@
-from itertools import product
-import operator
-
-
 def find_subexp_end(exp, start):
     paran = 0
     curr = start
