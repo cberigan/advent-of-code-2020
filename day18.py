@@ -42,7 +42,6 @@ def eval_expression1(exp):
 
 def eval_expression2(exp):
     value = None
-    op = None
     multi = []
     i = 0
     while i < len(exp):
