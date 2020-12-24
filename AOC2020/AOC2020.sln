@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30114.105
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AOC2020.Day6", "AOC2020.Day6\AOC2020.Day6.csproj", "{393D8B87-BE08-49E0-B5A6-9F0042A2BD8D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day6", "AOC2020.Day6\Day6.csproj", "{393D8B87-BE08-49E0-B5A6-9F0042A2BD8D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day7", "Day7\Day7.csproj", "{3C7CEF7E-934E-4A35-9E95-AAC3F83E0D62}"
 EndProject
@@ -20,6 +20,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day15", "Day15\Day15.csproj", "{12716C30-D544-4D8F-B2E4-EDA9964E7AFF}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day16", "Day16\Day16.csproj", "{EE46058A-4014-4325-B00A-39543C15729A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day23", "Day23\Day23.csproj", "{0CD27B31-5B0E-4DA9-B0EA-C911AD2376C3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +65,10 @@ Global
 		{EE46058A-4014-4325-B00A-39543C15729A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EE46058A-4014-4325-B00A-39543C15729A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EE46058A-4014-4325-B00A-39543C15729A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CD27B31-5B0E-4DA9-B0EA-C911AD2376C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CD27B31-5B0E-4DA9-B0EA-C911AD2376C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CD27B31-5B0E-4DA9-B0EA-C911AD2376C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CD27B31-5B0E-4DA9-B0EA-C911AD2376C3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
